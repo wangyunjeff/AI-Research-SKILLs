@@ -5,7 +5,7 @@ import { execSync } from 'child_process';
 import chalk from 'chalk';
 import ora from 'ora';
 
-const REPO_URL = 'https://github.com/Orchestra-Research/AI-research-SKILLs';
+const REPO_URL = 'https://github.com/wangyunjeff/AI-Research-SKILLs';
 const CANONICAL_DIR = join(homedir(), '.orchestra', 'skills');
 const LOCK_FILE = join(homedir(), '.orchestra', '.lock.json');
 const LOCAL_LOCK_FILENAME = '.orchestra-skills.json';
@@ -319,7 +319,7 @@ export function listInstalledSkills() {
   if (!existsSync(CANONICAL_DIR)) {
     console.log(chalk.yellow('    No skills installed yet.'));
     console.log();
-    console.log(`    Run ${chalk.cyan('npx @orchestra-research/ai-research-skills')} to install skills.`);
+    console.log(`    Run ${chalk.cyan('npx @wangyunjeff/ai-research-skills')} to install skills.`);
     return;
   }
 
@@ -332,7 +332,7 @@ export function listInstalledSkills() {
   if (categories.length === 0) {
     console.log(chalk.yellow('    No skills installed yet.'));
     console.log();
-    console.log(`    Run ${chalk.cyan('npx @orchestra-research/ai-research-skills')} to install skills.`);
+    console.log(`    Run ${chalk.cyan('npx @wangyunjeff/ai-research-skills')} to install skills.`);
     return;
   }
 
@@ -860,7 +860,7 @@ export function listLocalSkills(projectDir) {
   if (!lock.skills || lock.skills.length === 0) {
     console.log(chalk.yellow('    No skills installed locally in this project.'));
     console.log();
-    console.log(`    Run ${chalk.cyan('npx @orchestra-research/ai-research-skills install --local')} to install skills.`);
+    console.log(`    Run ${chalk.cyan('npx @wangyunjeff/ai-research-skills install --local')} to install skills.`);
     return;
   }
 

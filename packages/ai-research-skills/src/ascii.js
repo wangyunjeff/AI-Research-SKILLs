@@ -90,13 +90,13 @@ export function showSuccess(skillCount, agents) {
   console.log();
   console.log(chalk.white('              Commands:'));
   console.log();
-  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @orchestra-research/ai-research-skills')}`);
-  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @orchestra-research/ai-research-skills list')}`);
-  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @orchestra-research/ai-research-skills update')}`);
+  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @wangyunjeff/ai-research-skills')}`);
+  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @wangyunjeff/ai-research-skills list')}`);
+  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @wangyunjeff/ai-research-skills update')}`);
   console.log();
   console.log(chalk.dim('    ────────────────────────────────────────────────────────────'));
   console.log();
-  console.log(chalk.dim('              github.com/orchestra-research/ai-research-skills'));
+  console.log(chalk.dim('              github.com/wangyunjeff/AI-Research-SKILLs'));
   console.log();
 }
 
@@ -126,9 +126,9 @@ export function showLocalSuccess(skillCount, agents, projectDir) {
   console.log();
   console.log(chalk.white('              Commands:'));
   console.log();
-  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @orchestra-research/ai-research-skills list --local')}`);
-  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @orchestra-research/ai-research-skills update --local')}`);
-  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @orchestra-research/ai-research-skills uninstall --local')}`);
+  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @wangyunjeff/ai-research-skills list --local')}`);
+  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @wangyunjeff/ai-research-skills update --local')}`);
+  console.log(`              ${chalk.dim('$')} ${chalk.cyan('npx @wangyunjeff/ai-research-skills uninstall --local')}`);
   console.log();
   console.log(chalk.dim('    ────────────────────────────────────────────────────────────'));
   console.log();

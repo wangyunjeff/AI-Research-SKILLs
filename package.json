@@ -1,6 +1,10 @@
 {
   "name": "ai-research-skills",
   "version": "1.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/ai-research-skills"
+  ],
   "description": "> **The most comprehensive open-source library of AI research engineering skills for AI agents**",
   "main": "index.js",
   "directories": {

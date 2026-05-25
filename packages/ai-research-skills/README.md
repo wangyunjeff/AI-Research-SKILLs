@@ -1,9 +1,9 @@
-# @orchestra-research/ai-research-skills
+# @wangyunjeff/ai-research-skills
 
 Install AI research engineering skills to your coding agents (Claude Code, Hermes Agent, OpenCode, Cursor, Gemini CLI, and more).
 
 ```bash
-npx @orchestra-research/ai-research-skills
+npx @wangyunjeff/ai-research-skills
 ```
 
 ## Features
@@ -19,7 +19,7 @@ npx @orchestra-research/ai-research-skills
 Run the interactive installer:
 
 ```bash
-npx @orchestra-research/ai-research-skills
+npx @wangyunjeff/ai-research-skills
 ```
 
 This will:
@@ -32,19 +32,19 @@ This will:
 
 ```bash
 # Interactive mode (recommended)
-npx @orchestra-research/ai-research-skills
+npx @wangyunjeff/ai-research-skills
 
 # Install everything (global)
-npx @orchestra-research/ai-research-skills install --all
+npx @wangyunjeff/ai-research-skills install --all
 
 # Install a specific category
-npx @orchestra-research/ai-research-skills install post-training
+npx @wangyunjeff/ai-research-skills install post-training
 
 # List installed skills
-npx @orchestra-research/ai-research-skills list
+npx @wangyunjeff/ai-research-skills list
 
 # Update all skills
-npx @orchestra-research/ai-research-skills update
+npx @wangyunjeff/ai-research-skills update
 ```
 
 ### Local Installation (per-project)
@@ -53,19 +53,19 @@ Install skills directly into your project directory so different projects can ha
 
 ```bash
 # Install all skills locally to the current project
-npx @orchestra-research/ai-research-skills install --all --local
+npx @wangyunjeff/ai-research-skills install --all --local
 
 # Install a category locally
-npx @orchestra-research/ai-research-skills install --category post-training --local
+npx @wangyunjeff/ai-research-skills install --category post-training --local
 
 # List locally installed skills
-npx @orchestra-research/ai-research-skills list --local
+npx @wangyunjeff/ai-research-skills list --local
 
 # Update local skills
-npx @orchestra-research/ai-research-skills update --local
+npx @wangyunjeff/ai-research-skills update --local
 
 # Uninstall local skills
-npx @orchestra-research/ai-research-skills uninstall --local
+npx @wangyunjeff/ai-research-skills uninstall --local
 ```
 
 Local installation copies skills (not symlinks) into agent directories within your project:
@@ -153,4 +153,4 @@ my-project/
 
 ## License
 
-MIT - Orchestra Research
+MIT
